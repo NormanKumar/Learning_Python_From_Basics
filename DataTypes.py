@@ -1,21 +1,26 @@
-# There are 5 types of Data Types
+# There are mainly 2 types of Datatypes: Primary Datatypes and Derives Datatypes
+# There are 5 types of Primary Datatype
 name = "Norman"
 age = 67
 is_male = True
 weight = 103.5
+comp = 3 + 4j
 print(name)
 print(age)
 print(is_male)
 print(weight)
+print(comp)
 
-# To know the type of the variables With Variables
-print(type(name))
-print(type(age))
-print(type(is_male))
-print(type(weight))
+# We can declare and initialize Datatype using Constructor
+name = str("Norman Kumar")
+age = int(90)
+is_female = bool(False)
+weight = float(120)
+comp = complex(9,8)
+print(name)
+print(age)
+print(is_male)
+print(weight)
+print(comp)
 
-# Without using variables
-print(type(90))
-print(type("Norman"))
-print(type(True))
-print(type(90.8))
+
